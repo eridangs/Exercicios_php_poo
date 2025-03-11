@@ -45,7 +45,7 @@ class Biblioteca{
     }
     public static function ConsultarLeitor($cpf){
         foreach(Biblioteca::$listaDeLeitores as $leitor){
-            if($leitor->getCpf == $cpf)
+            if($leitor->getCpf == $cpf);
         }
     }
 }
